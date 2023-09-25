@@ -1,0 +1,135 @@
+options:
+	nologin: message "&aYou haven't logged in yet. Use /login <password> to login!"
+	nopass: message "&aYou don't have a password yet! Use /register <password> <re-enter password> to set one!"
+	resetpass: message "&a&lTyp /resetpassword <reason> to ask staff to reset your password!"
+	nopermoption: &cYou don't have permissions to execute this command!
+	noperm: message "&cYou don't have permissions to execute this command!"
+
+
+
+on join:
+	set {_loc} to player's location
+	delete {player::login::loggedin::%player's uuid%}
+	if {player::login::password::%player's uuid%} is not set:
+		{@nopass}
+	else:
+		if {player::login::loggedin::%player's uuid%} is not set:
+			{@nologin}
+	while player is online:
+		teleport player to {_loc}
+		if {player::login::password::%player's uuid%} is set:
+			if {player::login::loggedin::%player's uuid%} is set:
+				stop loop
+		wait 1 second
+on disconnect:
+	delete {player::login::loggedin::%player's uuid%}
+on kick:
+	delete {player::login::loggedin::%player's uuid%}
+on click:
+	if {player::login::loggedin::%player's uuid%} is not set:
+		cancel event
+		{@nologin}
+on drop:
+	if {player::login::loggedin::%player's uuid%} is not set:
+		cancel event
+		{@nologin}
+on pickup:
+	if {player::login::loggedin::%player's uuid%} is not set:
+		cancel event
+		{@nologin}
+on command:
+	if executor is a player:
+		if command is not "login" or "register" or "resetpassword" or "removepassword":
+			if {player::login::loggedin::%player's uuid%} is not set:
+				cancel event
+				{@nologin}
+on chat:
+	if {player::login::loggedin::%player's uuid%} is not set:
+		cancel event
+		{@nologin}
+on inventory click:
+	if {player::login::loggedin::%player's uuid%} is not set:
+		cancel event
+		{@nologin}
+on inventory open:
+	if {player::login::loggedin::%player's uuid%} is not set:
+		cancel event
+		{@nologin}
+
+		
+command /register [<text>] [<text>] [<text>]:
+	usage: /register
+	trigger:
+		if {player::login::password::%player's uuid%} is not set:
+			set {_use} to "&aUse /register <password> <re-enter password>."
+			if arg-1 is not set:
+				message {_use}
+			if arg-1 is set:
+				if arg-2 is not set:
+					message {_use}
+				else:
+					if length of arg-1 is less than 5:
+						message "&cA password needs to be at least 5 characters long!"
+					else:
+						if arg-1 is not arg-2:
+							message "&cThe passwords doesn't match!"
+						else:
+							message "&aYou succesfully created a password!"
+							set {player::login::password::%player's uuid%} to arg-1
+							set {player::login::loggedin::%player's uuid%} to true
+		else:
+			message "&aYou already have a password set!"
+			{@resetpass}
+command /login [<text>] [<text>]:
+	usage: /login
+	trigger:
+		set {_use} to "&aUse /login <password>"
+		if arg-1 is not set:
+			message {_use}
+		else:
+			if {player::login::password::%player's uuid%} is not set:
+				{@nopass}
+			else:
+				if {player::login::loggedin::%player's uuid%} is set:
+					message "&aYou are already logged in!"
+				else:
+					if arg-1 is not {player::login::password::%player's uuid%}:
+						message "&cIncorrect password"
+						{@resetpass}
+					else:
+						set {player::login::loggedin::%player's uuid%} to true
+						message "&aSuccesfully logged in!"
+command /resetpassword [<text>]:
+	usage: /resetpassword
+	trigger:
+		set {_use} to "&aUse /resetpassword <reason>"
+		if arg-1 is set:
+			if length of arg-1 is less than 25:
+				message "&aYou must at least use 25 characters to ask for a reset."
+			else:
+				message "&aYou succesfully asked staff to reset your password!"
+				loop all players:
+					if loop-player has permission "staff.resetpassword":
+						set {_arg1} to colored "%arg-1%"
+						set {_arg1} to uncolored {_arg1}
+						message "&8[&4&lPasswordReset&8] &7%player%&8, &7Reason&8: &7%{_arg1}%&7."
+		else:
+			message {_use}
+command /removepassword [<text>] [<text>]:
+	permission: staff.resetpassword
+	permission message: {@nopermoption}
+	usage: /removepassword
+	trigger:
+		set {_use} to "&aUse /removepassword <player>"
+		if arg-1 is not set:
+			message {_use}
+		if arg-1 is set:
+			set {_arg1} to arg-1 parsed as offline player
+			if {_arg1} is not set:
+				message "&cPlayer not found."
+			else:
+				set {_arg1uuid} to {_arg1}'s uuid
+				delete {player::login::password::%{_arg1uuid}%}
+				if {_arg1} is online:
+					kick {_arg1} due to "&aA staff-member resetted your password. Please login to register a new password!"
+				message "&aSuccesfully removed the password of %{_arg1}%."

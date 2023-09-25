@@ -1,0 +1,4 @@
+on fish:
+	if fish state = caught fish:
+		chance of 70%:
+			set item of fishing caught entity to diamond
