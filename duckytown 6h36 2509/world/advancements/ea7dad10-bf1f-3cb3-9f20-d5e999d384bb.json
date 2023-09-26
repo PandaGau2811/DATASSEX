@@ -2009,9 +2009,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
-      "has_planks": "2023-09-26 13:08:13 +0700"
+      "has_allium": "2023-09-26 12:43:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2023-09-26 12:46:09 +0700"
     },
     "done": true
   },
@@ -2021,9 +2027,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+  "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
-      "has_yellow_terracotta": "2023-09-26 12:46:09 +0700"
+      "has_planks": "2023-09-26 13:08:13 +0700"
     },
     "done": true
   },
@@ -2069,6 +2075,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2023-09-26 13:08:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2023-09-26 13:27:42 +0700"
@@ -2078,18 +2090,6 @@
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_hay_block": "2023-09-26 13:27:42 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2023-09-26 13:08:13 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_allium": {
-    "criteria": {
-      "has_allium": "2023-09-26 12:43:10 +0700"
     },
     "done": true
   },
