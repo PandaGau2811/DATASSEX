@@ -1,413 +1,143 @@
 # This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
 
 data-version: 3|2|3337
-'1':
-  uniqueId: 71ee4405-c4f3-40db-a4e4-3abd8ba652c7
+'6':
+  uniqueId: 1861f653-28d0-418f-ad46-9976ecd6b2e7
   world: world
-  x: 27
-  y: 61
-  z: 16
-  yaw: 252.17682
-  type: admin
-  name: huydaucac
-  object:
-    type: villager
-    baby: false
-    profession: NONE
-    villagerType: SAVANNA
-    villagerLevel: 1
-  recipes:
-    '1':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: NAUTILUS_SHELL
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-    '2':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: FIRE_CHARGE
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: NAUTILUS_SHELL
-    '3':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: ECHO_SHARD
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: FIRE_CHARGE
-    '4':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: AMETHYST_SHARD
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: ECHO_SHARD
-    '5':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: END_CRYSTAL
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: AMETHYST_SHARD
-    '6':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: HEART_OF_THE_SEA
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: RAW_GOLD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: END_CRYSTAL
-    '7':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: WOODEN_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Snail
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"20"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1MGEAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+nCwB3s5+jpEw+V54XL+zn6uoJME4SLuPo5ezj6hQQzMEXHcjCIwsVdIoFqPZ3jffyDXBl0o5XUkoPL84tSlHSUgEjNWEHN/NG8HQqOJSWJydkKLom5iempVgpqaUYGSrEMAOc3QmDSAAAA
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: NAUTILUS_SHELL
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: TOTEM_OF_UNDYING
-    '8':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: STONE_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Fire
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"30"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1sGMAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kCl+GFy/g5+rqCzBGEi7j6OXs4+oUEMzBFx3IwiMLFXSKBaj2d4338g1wZdKOV1JKDy/OLUpR0lIBIzVhBzfzRvB0KjiUlicnZCi6JuYnpqVYKamnGBkqxDACb0gpMzAAAAA==
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: FIRE_CHARGE
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: WOODEN_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Snail
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"20"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1MGEAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+nCwB3s5+jpEw+V54XL+zn6uoJME4SLuPo5ezj6hQQzMEXHcjCIwsVdIoFqPZ3jffyDXBl0o5XUkoPL84tSlHSUgEjNWEHN/NG8HQqOJSWJydkKLom5iempVgpqaUYGSrEMAOc3QmDSAAAA
-    '9':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: IRON_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Echo
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"40"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1cGEAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kCl+GFy/g5+rqCzBGEi7j6OXs4+oUEMzBFx3IwiMLFXSKBaj2d4338g1wZdKOV1JKDy/OLUpR0lIBIzVhBzfzRvB0KjiUlicnZCi6JuYnpqVYKamkmBkqxDADgqBSBzAAAAA==
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: ECHO_SHARD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: STONE_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Fire
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"30"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1sGMAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kCl+GFy/g5+rqCzBGEi7j6OXs4+oUEMzBFx3IwiMLFXSKBaj2d4338g1wZdKOV1JKDy/OLUpR0lIBIzVhBzfzRvB0KjiUlicnZCi6JuYnpqVYKamnGBkqxDACb0gpMzAAAAA==
-    '10':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: GOLDEN_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Amethyst
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"50"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd18GQAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kClnEByvDCZfwcfV1B5gjCRVz9nD0c/UKCGZiiYzkYROHiLpFAtZ7O8T7+Qa4MutFKasnB5flFKUo6SkCkZqygZv5o3g4Fx5KSxORsBZfE3MT0VCsFtTRTA6VYBgBW0ws0zAAAAA==
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: AMETHYST_SHARD
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: IRON_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Echo
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"40"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1cGEAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kCl+GFy/g5+rqCzBGEi7j6OXs4+oUEMzBFx3IwiMLFXSKBaj2d4338g1wZdKOV1JKDy/OLUpR0lIBIzVhBzfzRvB0KjiUlicnZCi6JuYnpqVYKamkmBkqxDADgqBSBzAAAAA==
-    '11':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: DIAMOND_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Cryst
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"60"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd18GMAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kClnEByvDCZfwcfV1B5gjCRVz9nD0c/UKCGZiiYzkYROHiLpFAtZ7O8T7+Qa4MutFKasnB5flFKUo6SkCkZqygZv5o3g4Fx5KSxORsBZfE3MT0VCsFtTQzA6VYBgB8eacozAAAAA==
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: END_CRYSTAL
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: GOLDEN_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Amethyst
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"50"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd18GQAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kClnEByvDCZfwcfV1B5gjCRVz9nD0c/UKCGZiiYzkYROHiLpFAtZ7O8T7+Qa4MutFKasnB5flFKUo6SkCkZqygZv5o3g4Fx5KSxORsBZfE3MT0VCsFtTRTA6VYBgBW0ws0zAAAAA==
-    '12':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: NETHERITE_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Ultimate
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"85"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd1CHVgAAEOBiG4AhAZHxIZ4MrAGhzuH+TCwSCAKufpApZxAcrwwmX8HH1dQeYIwkVc/Zw9HP1CghmYomM5GETh4i6RQLWezvE+/kGuDLrRSmrJweX5RSlKOkpApGasoGb+aN4OBceSksTkbAWXxNzE9FQrBbU0C1OlWAYAqX2H4MwAAAA=
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: HEART_OF_THE_SEA
-      item2:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: DIAMOND_SWORD
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Cryst
-            Sword"}],"text":""}'
-          lore:
-          - '{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'
-          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
-          - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
-            Attack Damage: "},{"italic":false,"color":"white","text":"60"}],"text":""}'
-          attribute-modifiers:
-            GENERIC_ATTACK_SPEED:
-            - ==: org.bukkit.attribute.AttributeModifier
-              amount: 0.0
-              name: mmoitemsDecoy
-              uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
-              operation: 0
-          ItemFlags:
-          - HIDE_ATTRIBUTES
-          internal: H4sIAAAAAAAA/+NiYGBjEPP19fcMcfUNjncMCXF09o53cfR1dHd18GMAAw4GIbgCEBkfEhngysAaHO4f5MLBIIAq5+kClnEByvDCZfwcfV1B5gjCRVz9nD0c/UKCGZiiYzkYROHiLpFAtZ7O8T7+Qa4MutFKasnB5flFKUo6SkCkZqygZv5o3g4Fx5KSxORsBZfE3MT0VCsFtTQzA6VYBgB8eacozAAAAA==
-  snapshots: []
-'2':
-  uniqueId: c9df846c-fbbc-4077-92ff-4675971232e6
-  world: world
-  x: 28
-  y: 61
-  z: 19
-  yaw: 132.12637
+  x: 131
+  y: 47
+  z: 115
+  yaw: 162.3641
   type: admin
   name: ''
   object:
-    type: villager
-    baby: false
-    profession: NONE
-    villagerType: SWAMP
-    villagerLevel: 1
+    type: citizen
+    npcId: 0ca701a9-aa60-40dd-aa8a-7fb57e9afc69
+  recipes: {}
+  snapshots: []
+'8':
+  uniqueId: 428cf5a3-1e9f-4284-a76e-1046d429ff9f
+  world: world
+  x: 119
+  y: 47
+  z: 115
+  yaw: 113.65943
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: 69be93e3-7fad-4919-8b56-d6446083b396
+  recipes: {}
+  snapshots: []
+'9':
+  uniqueId: 35a36297-213f-4945-aa80-0c21ef8e9d84
+  world: world
+  x: 113
+  y: 47
+  z: 115
+  yaw: 192.1729
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: fa0c1b54-6e93-4228-95e0-9fa8a5b99d23
+  recipes: {}
+  snapshots: []
+'10':
+  uniqueId: 006f83fd-6723-42f5-b94f-d4caac7991f3
+  world: world
+  x: 107
+  y: 47
+  z: 115
+  yaw: 8.103325
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: faf0f14d-a4fb-4278-8ae4-b463f5220960
+  recipes: {}
+  snapshots: []
+'11':
+  uniqueId: 3de200d0-5137-41ef-8041-fa5f0542bb55
+  world: world
+  x: 139
+  y: 47
+  z: 107
+  yaw: 65.726616
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: e6f5af66-8607-4887-8f91-1707f6d4af41
+  recipes: {}
+  snapshots: []
+'12':
+  uniqueId: d7f2fa26-b63a-4ae1-ba02-d7fec6dfd3c2
+  world: world
+  x: 139
+  y: 47
+  z: 101
+  yaw: 194.29988
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: 08c76c6d-7de9-45bd-9ff0-2a548c781773
+  recipes: {}
+  snapshots: []
+'13':
+  uniqueId: 5afc9bad-c542-41b1-92a4-2a9e5de14250
+  world: world
+  x: 139
+  y: 47
+  z: 95
+  yaw: 179.29372
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: 935130a7-8d3b-414d-9d69-a5e8e6f4495d
+  recipes: {}
+  snapshots: []
+'14':
+  uniqueId: 66983b50-d0e8-4e32-ac6a-da2513ffd1fc
+  world: world
+  x: 139
+  y: 47
+  z: 89
+  yaw: 4.8709083
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: 8c0bc7a9-606d-46c7-8d8f-162a2d18f054
+  recipes: {}
+  snapshots: []
+'15':
+  uniqueId: 1c1a9ce2-9fc3-4329-a886-a35d4eb8fd0a
+  world: world
+  x: 139
+  y: 47
+  z: 83
+  yaw: 328.04828
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: 35e6dc26-4208-48f1-af66-fb9211af8a27
+  recipes: {}
+  snapshots: []
+'17':
+  uniqueId: 5b7824d0-3bff-4a2c-b132-53bb51daf107
+  world: world
+  x: 125
+  y: 47
+  z: 115
+  yaw: 177.80815
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: 43f01965-242b-420f-8c39-b4ebbf80fb56
   recipes: {}
   snapshots: []

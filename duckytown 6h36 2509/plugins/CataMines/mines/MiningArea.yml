@@ -1,0 +1,224 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: MiningArea
+  region:
+    type: CUBOID
+    world: world
+    p1:
+      ==: org.bukkit.Location
+      world: world
+      x: 53.0
+      y: 47.0
+      z: 374.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: world
+      x: 68.0
+      y: 51.0
+      z: 389.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:nether_quartz_ore
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:lapis_ore
+    chance: 2.47
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_lapis_ore
+    chance: 2.47
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:redstone_ore
+    chance: 2.47
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_redstone_ore
+    chance: 2.47
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:coal_ore
+    chance: 2.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_coal_ore
+    chance: 2.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:copper_ore
+    chance: 1.5
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_copper_ore
+    chance: 1.5
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:iron_ore
+    chance: 1.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_iron_ore
+    chance: 1.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:gold_ore
+    chance: 0.5
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_gold_ore
+    chance: 0.5
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:diamond_ore
+    chance: 0.03
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_diamond_ore
+    chance: 0.03
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:emerald_ore
+    chance: 0.02
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate_emerald_ore
+    chance: 0.02
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:ancient_debris
+    chance: 0.01
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:netherrack
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:stone
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:diorite
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:granite
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:deepslate
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:end_stone
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:basalt
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:blackstone
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:sandstone
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:red_sandstone
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:andesite
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:tuff
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:calcite
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:prismarine
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:magma_block
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:obsidian
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:dark_prismarine
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:prismarine_bricks
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:crying_obsidian
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:nether_bricks
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:shroomlight
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:dripstone_block
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:mud
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:gilded_blackstone
+    chance: 0.01
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:purpur_block
+    chance: 3.0
+    addLootTable: false
+    lootTable: []
+  - block: minecraft:amethyst_block
+    chance: 2.99
+    addLootTable: false
+    lootTable: []
+  resetMode: TIME
+  resetDelay: 600
+  countdown: 274
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: false
+  isStopped: false
+  warn:
+    warnHotbar: false
+    warnHotbarMessage: default
+    enableWarn: true
+    warnGlobal: true
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 5
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null

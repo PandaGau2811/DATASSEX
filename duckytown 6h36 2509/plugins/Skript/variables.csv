@@ -3,10 +3,16 @@
 #
 # version: 2.7.0
 
+player::login::loggedin::2c8e3283-17cc-3b57-b589-ce2a3eb0a42c, boolean, 01
+player::login::loggedin::8c76f90d-6bb7-32f8-b9c9-f13ee5d9ad17, boolean, 01
 player::login::loggedin::a81536ca-871c-3712-9bac-ec869188de9d, boolean, 01
 player::login::password::0a8131b2-0f51-3dae-a389-3ccebd096b58, string, 800B6D696E687469656E326B39
+player::login::password::2c8e3283-17cc-3b57-b589-ce2a3eb0a42c, string, 800A326B3034697362657374
 player::login::password::8a085b1f-c46c-3a72-a434-5e51de4b64c6, string, 8006363838323338
+player::login::password::8c76f90d-6bb7-32f8-b9c9-f13ee5d9ad17, string, 8006313233343536
+player::login::password::14b97a04-caa3-3327-8dca-7ff2e83f1d95, string, 800768757932323038
 player::login::password::a81536ca-871c-3712-9bac-ec869188de9d, string, 800A696C6C6964616E736B31
+player::login::password::bff357be-6633-3479-bae5-37b9eb63e2a4, string, 80096B68616E6863757465
 player::login::password::ea7dad10-bf1f-3cb3-9f20-d5e999d384bb, string, 80053132333435
 player::login::password::f2efca04-1352-3431-9de6-9c9bfd24c0f7, string, 80053131313131
 
