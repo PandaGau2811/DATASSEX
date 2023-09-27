@@ -22,10 +22,3 @@
     - I only have a lore!
     material: STONE
     block-id: 3.0
-TEST1:
-  base:
-    material: STONE
-    enchants:
-      unbreaking: 10.0
-    hide-enchants: true
-    required-power: 180.0

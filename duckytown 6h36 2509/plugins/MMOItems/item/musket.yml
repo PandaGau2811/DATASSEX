@@ -49,7 +49,7 @@ SNIPER_RIFLE:
     lore:
     - §bWhen you need a lot of precision.
     disable-interaction: true
-    range: 20000.0
+    range: 1800.0
     attack-damage:
       base: 30.0
       scale: 0.15
@@ -83,7 +83,7 @@ SNIPER_RIFLE:
         mode: ATTACK
         cooldown: 5.0
         duration: 2.0
-    attack-speed: 150.0
+    attack-speed: 0.9
     knockback: 0.25
     recoil: 0.01
     displayed-type: Firearm

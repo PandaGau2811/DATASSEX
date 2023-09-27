@@ -57,11 +57,11 @@ ranks:
     prefix-suffix-space: false # Set a space behind the prefix and in front of the suffix
     chat-layout: '%prefix% %player_name% &7» ' # This is the fallback chat-prefix if there is no specific for the rank
     chat-prefix:
-      owner: '&4Owner &7| &4%player_name% &7» '
-      admin: '&cAdmin &7| &c%player_name% &7» '
+      owner: '&bOwner &7| &4%player_name% &7» '
+      admin: '&6Admin &7| &c%player_name% &7» '
       player: '&7Player | %player_name% » '
 
-  ### (If you have LuckPerms API enabled, ignore the rank list in this config.)
+  ### (If you have LuckPermst API enabled, ignore the rank list in this config.)
   ### You can add as many ranks as you want.
   ### Note: There's a limit of 64 chars in the prefix/suffix. Depending on your MC version, this limit can be higher or lower.
   ###       If you are unsure, just try it out after how much chars it stops working.
@@ -69,7 +69,7 @@ ranks:
   list:
     owner:
       permission: 'rank.owner' # If the perm system above is "none", use a permission here. If it's not "none", use the group name instead (E.g. 'owner' instead of 'rank.owner').
-      prefix: '&4Owner &7| &4'
+      prefix: '&bOwner &7| &b'
       suffix: ' &7[&eTeam&7]'
       chatPrefix: '&7[&cOwner&7] %player_name% » '
       placeholder-name: 'Owner' # This will replace the %player_rank% placeholder

@@ -28,9 +28,9 @@ THOR_HAMMER:
     max-durability: 80000.0
     name: §b§lThor's Hammer
     lore:
-      - §bUse the power of the storm!
-      - §ePlays a custom sound when attacking!
-      - §aWill not drop on death!
+    - §bUse the power of the storm!
+    - §ePlays a custom sound when attacking!
+    - §aWill not drop on death!
     element:
       thunder:
         damage: 150.0
@@ -40,7 +40,6 @@ THOR_HAMMER:
       spread: 0.1
       max-spread: 0.2
     attack-speed: 1.4
-    required-level: 60.0
     attack-damage:
       base: 80.0
       scale: 0.15
@@ -52,7 +51,7 @@ THOR_HAMMER:
     blunt-power: 6.0
     blunt-rating: 75.0
     gem-sockets:
-      - Thunder
+    - Thunder
     sounds:
       on-attack:
         sound: entity.lightning_bolt.thunder
@@ -66,7 +65,7 @@ THOR_HAMMER:
         type: SMITE
         mode: RIGHT_CLICK
         damage: 100.0
-        cooldown: 12.0
+        cooldown: 0.0
     additional-experience: 15.0
     unbreakable: true
     disable-death-drop: true
@@ -76,9 +75,9 @@ HEAVY_HAMMER:
     name: §7§lHeavy Hammer
     max-durability: 3650.0
     lore:
-      - §fA very heavy hammer.
-      - §7You almost can't move, but it's
-      - §7worth it!
+    - §fA very heavy hammer.
+    - §7You almost can't move, but it's
+    - §7worth it!
     perm-effects:
       SLOW: 4.0
     attack-damage:
@@ -98,7 +97,7 @@ HEAVY_HAMMER:
       max-spread: 0.2
     required-level: 10.0
     required-class:
-      - Warrior
+    - Warrior
     stamina-cost: 4.0
     blunt-power: 5.0
     blunt-rating: 85.0

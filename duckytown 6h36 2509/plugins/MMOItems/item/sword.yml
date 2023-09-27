@@ -13,11 +13,3 @@ SWODD:
   base:
     material: NETHERITE_SWORD
     attack-damage: 85.0
-'1':
-  base:
-    material: IRON_SWORD
-    enchants:
-      sharpness: 100.0
-      looting: 32767.0
-    durability-bar: true
-    unbreakable: true
