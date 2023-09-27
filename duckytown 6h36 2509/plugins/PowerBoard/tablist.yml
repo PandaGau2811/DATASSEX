@@ -10,48 +10,61 @@
 # Note: The speed value can not be higher than 9999.
 
 header:
-  '1':
-    speed: 5
+  '0':
+    speed: -1
     lines:
-    - '&bLocation: &aX: %player_loc_x%; Y: %player_loc_y%; Z: %player_loc_z%'
+      - ''
+
+  '1':
+    speed: 10
+    lines:
+    - '&cT'
+    - '&cTA'
+    - '&cTAB'
+    - '&cTABL'
+    - '&cTABLI'
+    - '&cTABLIS'
+    - '&cTABLIST'
 
   '2':
+    speed: -1
+    lines:
+    - ''
+
+  '3':
+    speed: 10
+    lines:
+    - '  &aChào Mấy Con Dịt Đến &6Ducky Town  '
+    - '  &bChào Mấy Con Dịt Đến &6Ducky Town  '
+    - '  &cChào Mấy Con Dịt Đến &6Ducky Town  '
+    - '  &dChào Mấy Con Dịt Đến &6Ducky Town  '
+
+  '4':
     speed: -1
     lines:
     - ' '
 
 footer:
-  '1':
+  '0':
     speed: -1
     lines:
-    - ' '
+      - ''
+  '1':
+    speed: 0
+    lines:
+    - '&aServer RAM: &b%server_ram_used%&7/&a%server_ram_max%'
 
   '2':
-    speed: 30
+    speed: -1
     lines:
-    - '&bPlayers:'
-    - '&bYour rank:'
-    - '&bYour name:'
-    - '&bTime:'
-    - '&bDate:'
-    - '&bWorld:'
-    - '&bYour ping:'
-    - '&bYour hunger level:'
-    - '&bYour saturation:'
-    - '&bYour hearts:'
-    - '&bServer TPS:'
+      - '&aPlayers: &b%server_online%&7/&a%server_max_players%'
 
   '3':
-    speed: 30
+    speed: 10
     lines:
-    - '&a%server_online_players%&7/&a%server_max_players%'
-    - '&a%player_rank%'
-    - '&a%player_name%'
-    - '&a%time%'
-    - '&a%date%'
-    - '&a%player_world%'
-    - '&a%player_ping%'
-    - '&a%player_food%'
-    - '&a%player_saturation%'
-    - '&a%player_health%'
-    - '&a%server_tps%'
+      - '&d%date%'
+
+  '4':
+    speed: -1
+    lines:
+      - '&r✪ &b&ohttps://discord.gg/w44gruHs &r✪'

@@ -7,7 +7,7 @@
 # Do not change config-version
 config-version: 6
 # Notify console when a plugin update is available
-check-updates: true
+check-updates: false
 language:
   # Default locale
   # If you want to add more languages copy language/en.yml, rename it and apply your changes,

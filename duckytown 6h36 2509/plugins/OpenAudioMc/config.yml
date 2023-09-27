@@ -96,7 +96,7 @@ options:
   send-on-join: true
 
   # Delay in seconds before sending the link to the player
-  send-on-join-delay: 5
+  send-on-join-delay: 1
 
   # If set to true, the player gets reminded to connect (see messages.suggest-connection)
   remind-to-connect: true
@@ -199,16 +199,16 @@ options:
 # PlaceholderAPI
 papi:
   # Value to display when player is connected to the web client
-  client-connected: "Connected"
+  client-connected: "Đã kết nối"
 
   # Value to display when player is disconnected from the web client
-  client-disconnected: "Disconnected"
+  client-disconnected: "Đã ngắt kết nối"
 
   # Value to display when player is connected to the voice chat
-  voicechat-connected: "Connected"
+  voicechat-connected: "Đã kết nối"
 
   # Value to display when player is disconnected from the voice chat
-  voicechat-disconnected: "Disconnected"
+  voicechat-disconnected: "Đã ngắt kết nối"
 
 # CDN
 # Configuration for the Patreon CDN

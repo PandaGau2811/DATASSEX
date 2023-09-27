@@ -115,13 +115,13 @@ Messages:
 
   other-messages:
     # Message sent to use the /login command
-    message-login: "&eUse the command /login <password>"
+    message-login: "&eDùng lệnh /login <mật khẩu>"
 
     # Message sent to use the /register command
-    message-register: "&eUse the command /register <password> <password>"
+    message-register: "&eDùng lệnh /register <mật khẩu> <mật khẩu>"
 
     # Message sent to use the /changepassword command
-    message-changepassword: "&eUse the command /changepassword <current password> <new password>"
+    message-changepassword: "&eDùng lệnh /changepassword <mật khẩu hiện tại> <mật khẩu mới>"
 
     # Message sent to use the /unregister command
-    message-unregister: "&eUse the command /unregister <current password>"
+    message-unregister: "&eDùng lệnh /unregister <mật khẩu hiện tại>"

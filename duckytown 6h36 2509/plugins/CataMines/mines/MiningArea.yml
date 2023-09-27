@@ -8,7 +8,7 @@ Mine:
       ==: org.bukkit.Location
       world: world
       x: 53.0
-      y: 47.0
+      y: 42.0
       z: 374.0
       pitch: 0.0
       yaw: 0.0
@@ -16,7 +16,7 @@ Mine:
       ==: org.bukkit.Location
       world: world
       x: 68.0
-      y: 51.0
+      y: 47.0
       z: 389.0
       pitch: 0.0
       yaw: 0.0
@@ -199,11 +199,11 @@ Mine:
     lootTable: []
   resetMode: TIME
   resetDelay: 600
-  countdown: 235
+  countdown: 71
   resetPercentage: 0.0
   replaceMode: false
   teleportPlayers: false
-  teleportPlayersToResetLocation: false
+  teleportPlayersToResetLocation: true
   isStopped: false
   warn:
     warnHotbar: false
@@ -220,5 +220,19 @@ Mine:
     - 5
     warnDistance: 5
   minEfficiencyLvl: 0
-  teleportLocation: null
-  teleportResetLocation: null
+  teleportLocation:
+    ==: org.bukkit.Location
+    world: world
+    x: 59.49350308272133
+    y: 52.0
+    z: 370.41041457597595
+    pitch: 11.849984
+    yaw: -0.29979253
+  teleportResetLocation:
+    ==: org.bukkit.Location
+    world: world
+    x: 59.59423690497405
+    y: 52.0
+    z: 370.39166668536393
+    pitch: 11.699995
+    yaw: -0.9002991

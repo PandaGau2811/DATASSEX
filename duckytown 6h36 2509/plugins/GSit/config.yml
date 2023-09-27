@@ -11,7 +11,7 @@ Lang:
 Options:
   
   # Defines whether the plugin should notify when a new version is available
-  check-for-update: true
+  check-for-update: false
   
   # Defines whether a player should get up after taking damage
   get-up-damage: false
@@ -73,7 +73,7 @@ Options:
     allow-sit-npc: true
     
     # Defines the maximum number of players that can be stacked (0 means unlimited)
-    max-stack: 0
+    max-stack: 1
     
     # Defines whether a player should kick out all passengers when sneaking
     sneak-ejects: true

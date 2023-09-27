@@ -3,7 +3,7 @@
 function clearlag():
     broadcast "&b&lCLEARLAG &7• &bMọi Item Rơi Ra Sẽ Bị Xóa Trong 5 Phút Sắp Tới"
     wait 5 minutes
-    broadcast "&4&lCLEARLAG &7• &cĐã Xóa %size of dropped items% Items Rơi Ra"
+    broadcast "&b&lCLEARLAG &7• &cĐã Xóa %size of dropped items% Items Rơi Ra"
     kill dropped items
 
 command clearlag:
@@ -13,5 +13,5 @@ command clearlag:
     trigger:
         clearlag()
 
-every 3 minutes:
+every 5 minutes:
     clearlag()

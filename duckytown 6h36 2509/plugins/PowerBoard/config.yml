@@ -27,7 +27,7 @@ tablist:
   ranks: true # enable/disable the rank system (only tablist)
 
 chat:
-  ranks: true # enable/disable the chat system
+  ranks: false # enable/disable the chat system
   colorperm: 'chat.color' # The permission to use colorcodes in chat. To disable (preventing all players from using colors in chat), set it to "none".
   allowHexColors: true # Allow players to use hex colors in chat. It uses the 'colorperm' permission.
 
@@ -57,9 +57,9 @@ ranks:
     prefix-suffix-space: false # Set a space behind the prefix and in front of the suffix
     chat-layout: '%prefix% %player_name% &7» ' # This is the fallback chat-prefix if there is no specific for the rank
     chat-prefix:
-      owner: '&bOwner &7| &4%player_name% &7» '
-      admin: '&6Admin &7| &c%player_name% &7» '
-      player: '&7Player | %player_name% » '
+      owner: '&b%player_name% &7» '
+      admin: '&b%player_name% &7» '
+      player: '&b%player_name% » '
 
   ### (If you have LuckPermst API enabled, ignore the rank list in this config.)
   ### You can add as many ranks as you want.
@@ -69,21 +69,21 @@ ranks:
   list:
     owner:
       permission: 'rank.owner' # If the perm system above is "none", use a permission here. If it's not "none", use the group name instead (E.g. 'owner' instead of 'rank.owner').
-      prefix: '&bOwner &7| &b'
-      suffix: ' &7[&eTeam&7]'
-      chatPrefix: '&7[&cOwner&7] %player_name% » '
+      prefix: ''
+      suffix: ''
+      chatPrefix: '&b%player_name% » '
       placeholder-name: 'Owner' # This will replace the %player_rank% placeholder
     admin:
       permission: 'rank.admin'
-      prefix: '&cAdmin &7| &c'
-      suffix: ' &7[&eTeam&7]'
-      chatPrefix: '&7[&4Admin&7] %player_name% » '
+      prefix: ''
+      suffix: ''
+      chatPrefix: '&b%player_name% » '
       placeholder-name: 'Admin'
     player:
       permission: 'rank.player'
-      prefix: '&7Player | '
+      prefix: ''
       suffix: ''
-      chatPrefix: '&7[&aPlayer&7] %player_name% » '
+      chatPrefix: '&b%player_name% » '
       placeholder-name: 'Player'
 
 ####################

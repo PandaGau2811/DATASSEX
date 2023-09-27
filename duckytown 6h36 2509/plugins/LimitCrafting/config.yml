@@ -1,12 +1,12 @@
 limitcrafting:
   # if you want to disable plugin, set to false
   enabled: true
-  config-reloaded: "&eConfiguration reloaded! &cIf you're enjoying LimitCrafting, leave a review on Spigot as it helps the author of this plugin. :)"
+  config-reloaded: "&eTùy chỉnh đã được cập nhật!"
   # use %command% to get command syntax
-  incorrect-syntax: "&cIncorrect syntax: %command%"
+  incorrect-syntax: "&cSai cấu trúc: %command%"
   # message that is sent to the player after trying to craft a disallowed item
   # use %item% to get item name
-  message: '&eYou aren''t permitted to craft item %item%'
+  message: '&eBạn không được phép chế tạo %item%'
   # set to true if you want to block ALL items in the game from crafting
   block-all-items: false
   # list of materials you would like to block from crafting if block-all-items is set to false

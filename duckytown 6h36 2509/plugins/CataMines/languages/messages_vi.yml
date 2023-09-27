@@ -1,0 +1,401 @@
+Time:
+  Seconds: giây
+  Second: giây
+  Minutes: phút
+  Minute: phút
+  Hours: giờ
+  Hour: giờ
+
+GUI:
+  Universal:
+    Previous-Page:
+      Name: '&6&lTrang trước'
+      Lore:
+      - ''
+      - '&7Mở trang trước nếu có'
+    Next-Page:
+      Name: '&6&lTrang tiếp'
+      Lore:
+      - ''
+      - '&7Mở trang tiếp nếu có'
+    Close:
+      Name: '&4&lĐóng'
+      Lore:
+      - ''
+      - '&7Đóng menu'
+    Back-To-Mine-Menu:
+      Name: '&6&lLùi'
+      Lore:
+      - ''
+      - '&7Về menu mine'
+    Back-To-Composition-Menu:
+      Name: '&6&lLùi'
+      Lore:
+      - ''
+      - '&7Về menu thành phần'
+    Back-To-Block-Menu:
+      Name: '&6&lLùi'
+      Lore:
+      - ''
+      - '&7Về menu các khối'
+    Increase-By: '&aTăng %number%'
+    Decrease-By: '&cGiảm %number%'
+  Mine-List-Menu:
+    Title: '&bKhu khai thác'
+  Mine-Menu:
+    Title: '&b%mine%'
+    Items:
+      Configure-Composition:
+        Name: '&6Tùy chỉnh thành phần'
+        Lore:
+        - ''
+        - '&bThành phần: &c%chance%%'
+      Configure-Delay:
+        Name: '&6Tùy chỉnh độ trễ reset'
+        Lore:
+        - '&fReset theo thời gian'
+        - ''
+        - '&bReset thời gian: &c%delay%'
+        - '&bReset phần trăm: &c%percentage%'
+        - ''
+        - '&a&lChuột phải để chuyển chế độ'
+      Configure-Percentage:
+        Name: '&6Tùy chỉnh phần trăm reset'
+        Lore:
+        - '&fReset theo phần trăm'
+        - ''
+        - '&bReset thời gian: &c%delay%'
+        - '&bReset phần trăm: &c%percentage%'
+        - ''
+        - '&a&lChuột phải để chuyển chế độ'
+      Configure-TimePercentage:
+        Name: '&6Thời gian - Phần trăm'
+        Lore:
+        - '&fReset theo thời gian và phần trăm'
+        - ''
+        - '&bReset thời gian: &c%delay%'
+        - '&bReset phần trăm: &c%percentage%'
+        - ''
+        - '&a&lChuột phải để chuyển chế độ'
+      Flag-Menu:
+        Name: '&6Tùy chỉnh cờ hiệu'
+        Lore:
+        - ''
+        - '&eCảnh báo: &f%warn%'
+        - '  &eToàn bộ: &f%global%'
+        - '  &eThanh hành động: &f%actionbar%'
+        - '  &eKhoảng cách: &c%warndistance%'
+        - '&eDịch chuyển: &f%teleports%'
+        - '  &eĐến vị trí reset dịch chuyển: &f%resettp%'
+        - '&eThay thế: &f%replacemode%'
+      Efficiency-Lvl:
+        Name: '&6Cấp hiệu suất'
+        Lore:
+        - ''
+        - '&bCấp độ: &c%level%'
+        - ''
+        - '&fYêu cầu cấp để khai thác'
+        - ''
+      Reset-Mine:
+        Name: '&cReset khu khai thác'
+      Teleport:
+        Name: '&5Dịch chuyển'
+        Lore:
+        - '&bDịch chuyển bạn đến khu khai thác'
+      Delete:
+        Name: '&4&lXóa'
+      Start-Stop:
+        Active:
+          Name: '&aKhu khai thác đã bật'
+        Inactive:
+          Name: '&7Khu khai thác đã tắt'
+        Lore:
+        - '&bChọn nếu như khu khai thác cần reset tự động'
+      Back:
+        Name: '&4&lLùi'
+        Lore:
+        - ''
+        - '&7Về menu mine'
+      Running:
+        Active:
+          Name: '&aKhu khai thác đang hoạt động'
+          Lore:
+          - '&7Hiển thị nếu như khu khai thác đang hoạt động.'
+          - '&7Nếu không, nó sẽ hiển thị lý do.'
+        Inactive:
+          Name: '&7Khu khai thác đang không hoạt động:'
+          Reasons:
+            Invalid-Region: '&cKhu vực không hợp lệ'
+            Stopped: '&cĐã dừng'
+            No-Composition: '&cNó không tồn tại thành phần'
+            Invalid-Delay: '&cThời gian reset của nó %delay%'
+  Composition-Menu:
+    Title: '&bThành phần: &c%chance%%'
+    Items:
+      Composition-Block:
+        Name: '%!unchangeable! internal material name%'
+        Lore:
+        - '&f%blockdata%'
+        - ''
+        - '&bTỷ lệ: &c%chance%%'
+        - ''
+        - '&aChuột trái để điều chỉnh'
+      Info:
+        Name: '&6Thông tin:'
+        Lore:
+        - '&aThêm vật phẩm chuột trái/phải'
+        - '&anhấn vào vật phẩm trong kho đồ.'
+        - ''
+        - '&cXóa vật phẩm bằng cách nhấn chuột phải'
+        - '&cchúng trong danh sách thành phần'
+  Composition-Block-Menu:
+    Title: '&bTỷ lệ khối: &c%blockChance%% / %compChance%%'
+    Items:
+      Current-Block:
+        Name: '%!unchangeable! internal material name%'
+        Lore:
+        - '&f%blockdata%'
+        - ''
+        - '&bTỷ lệ khối: &c%blockChance%%'
+        - '&bTỷ lệ thành phần: &c%compChance%%'
+      Change-Table:
+        Name: '&6Thay đổi rương ẩn'
+      Configure-Table:
+        Name: '&6Thay đổi tỷ lệ trong rương ẩn'
+      Add-Loot-Table:
+        Active:
+          Name: '&a&lVật phẩm ngẫu nhiên đã được thêm'
+          Lore:
+          - ''
+          - '&fVật phẩm tùy chỉnh đã được thêm lên đầu'
+          - '&fcủa vật phẩm ngẫu nhiên mặc định'
+        Inactive:
+          Name: '&7Vật phẩm ngẫu nhiên ghi đè'
+          Lore:
+          - ''
+          - '&fVật phẩm mặc định bị gỡ bỏ.'
+          - '&fChỉ có khối rơi ra vật phẩm tùy chỉnh.'
+  Change-Loot-Table-Menu:
+    Title: '&bThêm vật phẩm vào rương ẩn'
+    Items:
+      Save-Table:
+        Name: '&aLưu rương ẩn'
+        Message: '&aĐã lưu rương ẩn.'
+  Loot-Table-List-Menu:
+    Title: '&bTùy chỉnh tỷ lệ vật phẩm rơi'
+    Items:
+      Drop-Item:
+        Name: '!unchangeable! internal material name'
+        Lore:
+        - ''
+        - '&bTỷ lệ: &c%chance%%'
+  Configure-Item-Drop-Chances-Menu:
+    Title: '&bTỷ lệ: &c%itemChance%/100%'
+    Items:
+      Current-Item: '!unchangeable! internal item'
+      Fortune:
+        Active:
+          Name: '&a&lMay mắn'
+          Lore:
+          - ''
+          - '&fCấp may mắn sẽ ảnh hưởng đến'
+          - '&fsố lượng rơi vật phẩm'
+        Inactive:
+          Name: '&7May mắn'
+          Lore:
+          - ''
+          - '&fVật phẩm không thể bị ảnh hưởng bỏi may mắn'
+  Reset-Delay-Menu:
+    Title: '&bĐộ trễ hiện tại: &c%delay%'
+    Items:
+      Current-Delay:
+        Name: '&bĐộ trễ hiện tại: &c%delay%'
+      Switch:
+        Name: '&6Chuyển trang'
+        Lore:
+        - ''
+        - '&bChuyển trang đến &6PHẦN TRĂM'
+  Reset-Percentage-Menu:
+    Title: '&bPhần trăm hiện tại: &c%percentage%%'
+    Items:
+      Current-Percentage:
+        Name: '&bPhần trăm hiện tại: &c%percentage%'
+      Switch:
+        Name: '&6Chuyển trang'
+        Lore:
+        - ''
+        - '&bChuyển trang đến &6THỜI GIAN'
+  Flags-Menu:
+    Title: '&6&lThiết lập cờ hiệu khu khai thác'
+    Items:
+      Warn:
+        Active:
+          Name: '&a&lCảnh báo'
+          Lore:
+          - ''
+          - '&fKhu khai thác hiện tại cảnh báo khi reset số giây cụ thể khi reset'
+        Inactive:
+          Name: '&7Cảnh báo'
+          Lore:
+          - ''
+          - '&fKhu khai thác không cảnh báo'
+      Warn-Global:
+        Active:
+          Name: '&a&lCảnh báo toàn bộ'
+          Lore:
+          - ''
+          - '&fNếu &a&l''Cảnh báo'' &fđược bật'
+          - '&fnó bây giờ sẽ cảnh báo toàn bộ'
+        Inactive:
+          Name: '&7Cảnh báo toàn bộ'
+          Lore:
+          - ''
+          - '&fKhu khai thác không cảnh bảo toàn bộ'
+      Warn-Hotbar:
+        Active:
+          Name: '&a&lHiển thị trong thanh hành động'
+          Lore:
+          - ''
+          - '&fHiển thị thông tin khu khai thác trong'
+          - '&fthanh hành động của người chơi'
+        Inactive:
+          Name: '&7Hiển thị trong thanh hành động'
+          Lore:
+          - ''
+          - '&fHiển thị thông tin khu khai thác trong'
+          - '&fthanh hành động của người chơi'
+      Teleport-Players:
+        Active:
+          Name: '&a&lDịch chuyển'
+          Lore:
+          - ''
+          - '&fDịch chuyển khi reset'
+          - '&fBạn có thể chọn dịch chuyển trên cùng hoặc'
+          - '&fđến bị trí cụ thể'
+        Inactive:
+          Name: '&7Dịch chuyển'
+          Lore:
+          - ''
+          - '&fDịch chuyển khi reset'
+          - '&fBạn có thể chọn dịch chuyển trên cùng hoặc'
+          - '&fđến bị trí cụ thể'
+      Teleport-Players-To-Reset-Location:
+        Active:
+          Name: '&aVị trí dịch chuyển'
+          Lore:
+          - ''
+          - '&fHiện tại dịch chuyển đến vị trí reset'
+          - '&fnếu sử dụng lệnh'
+          - '&f/cm setresettp <tên khu khai thác>'
+        Inactive:
+          Name: '&2Vị trí dịch chuyển'
+          Lore:
+          - ''
+          - '&fHiện tại dịch chuyển đến'
+          - '&ftrên cùng của khu khai thác'
+      Replace-Mode:
+        Active:
+          Name: '&a&lThay thế khối không khí'
+          Lore:
+          - ''
+          - '&fChỉ reset các khối trống của khu khai thác'
+        Inactive:
+          Name: '&7Thay thế tất cả'
+          Lore:
+          - ''
+          - '&fReset tất cả khối trong khu khai thác'
+      Warn-Distance:
+        Name: '&6Tùy chỉnh khoảng cách cảnh báo'
+        Lore:
+        - '&bKhoảng cách cảnh báo: &c%distance%'
+  Efficiency-Menu:
+    Title: '&bCấp: &c%level%'
+    Items:
+      Current-Level:
+        Name: '&bCấp hiệu suất: &c%level%'
+        Lore:
+        - ''
+  Warn-Distance-Menu:
+    Title: '&bKhoảng cách cảnh bảo: &c%distance%'
+    Items:
+      Current-Distance:
+        Name: '&bKhoảng cách hiện tại: &c%distance%'
+
+Commands:
+  Create: Khu khai thác &b%mine% &7đã được tạo.
+  Delete: Khu khai thác &b%mine% &7đã bị xóa.
+  Reset-Mode: Đặt chế độ reset &b%mine% &7thành &a%mode%&7.
+  Delay: Đặt độ trễ reset &a%seconds% &7giây.
+  Reset-Percentage: '&b%mine% &7reset khi còn &a%percentage%% &7cả khu'
+  Set:
+    Success: '&b%material% &7đặt cho &a%mine%&7. Bạn còn &6%remainingChance%% &7 còn lại.'
+    Error: '%chance-over-100%. Bạn còn &6%remainingChance%% &7còn lại.'
+  Unset:
+    Clear: Thành phần của &a%mine% &7đã bị xóa bỏ
+    Remove:
+      Success: '&b%material% &7đã bị loại bỏ. Bạn còn &a%remainingChance%% &7còn lại.'
+      Error: '&b%material% &7không có trong thành phần của %mine%&7. Bạn còn &a%remainingChance%%
+        &7còn lại.'
+  Reset: Khu khai thác đã được reset.
+  Teleport:
+    Self: Đã dịch chuyển đến &b%mine%.
+    Other: Dịch chuyển &6%player% &7đến &b%mine%
+  Set-Teleport: Đặt dịch chuyển của &b%mine%.
+  Set-Reset-Teleport: Đặt reset dịch chuyển của &b%mine%. &7Đồng thời đặt dịch chuyển người chơi đến điểm reset
+    thành &atrue
+  Flag:
+    Move-Region: Di chuyển khu vực của &c%mine%.
+    Rename: Đã đổi tên &b%oldmine% &7thành &a%newmine%.
+    Replace-Mode: Đặt chế độ thay thế &b%mine% &7thành &a%arg%.
+    Teleport-Players: Dịch chuyển người chơi ở &b%mine% &7đặt thành &a%arg%.
+    Warn:
+      Warn-Hotbar: Cảnh báo ở &b%mine% &7đặt thành &a%arg%.
+      Warn-Enable: Cảnh báo ở &b%mine% &7đặt thành &a%arg%.
+      Warn-Global: Cảnh báo toàn bộ ở &b%mine% &7đặt thành &a%arg%.
+      Warn-Message: '&aĐã cập nhật tin nhắn cảnh báo.'
+      Reset-Message: '&aĐã cập nhật tin nhắn reset.'
+      Warn-Distance: Khoảng cách cảnh báo &b%mine% &7đặt thành &a%arg%.
+      Warn-Seconds: '&aĐã cập nhật giây cảnh báo.'
+  Start: '&aĐã bắt đầu %mine%.'
+  Stop: '&cĐã dừng %mine%.'
+  Start-Tasks: '&aĐã bắt đầu toàn bộ nhiệm vụ khu khai thác'
+  Stop-Tasks: '&cĐã dừng toàn bộ nhiệm vụ khu khai thác'
+  Sync: '&aĐộng bộ toàn bộ khu khai thác'
+  Reload:
+    All: '&aPlugin đã được load lại.'
+    Mines: '&aCác khu khai thác đã được load lại.'
+    Config: '&aTùy chỉnh đã được load lại.'
+    Messages: '&aTin nhắn đã được load lại.'
+    Properties: '&aThuộc tính đã được load lại.'
+
+Error-Messages:
+  No-Permission: '&cBạn không có quyền thực hiện!'
+  Only-Players: '&cChỉ có vài người chơi có thể thực hiện lệnh này!'
+  Unknown-Command: Không rõ lệnh.
+  Unknown-Flag: Không rõ cờ hiệu.
+  Player-Not-Found: Người chơi &6%player% &7không tìm thấy!
+  Mine:
+    Incomplete-Region: Bạn phải chọn một khu vực!
+    Not-Exist: Khu khai thác không tồn tại!
+    Exist: Khu khai thác đã tồn tại!
+    Cant-Reset: Không thể reset khu khai thác!
+    Material-Not-Found: Không tìm thấy vật liệu!
+    Not-Number: Tỷ lệ phải là số!
+    Not-Percentage: Tỷ lệ phải là số phần trăm!
+    Invalid-Chance: Tỷ lệ phải nằm giữa 0 và 100%!
+    Invalid-Range: Thông số đầu vào phải nằm giữa %start%-%end%!
+    Material-Not-Solid: Vật liệu phải là khối cứng!
+    Invalid-Block-Configuration: Tùy chỉnh khối không hợp lệ!
+    Invalid-Boolean: Phần tử cuối cùng phải là true hoặc false!
+    Teleport-Error: Vị trí không tồn tại!
+    Block-Not-In-Composition: Khối không nằm trong thành phần
+    Invalid-Region: '&cKhu vực không hợp lệ!'
+    Material-In-Composition: Vật liệu này đã có trong mục thành phần!
+    Chance-Over-100: Tỷ lệ sẽ bị vượt quá 100%
+  GUI:
+    Mine-Deleted: Đã loại khỏi menu khai thác!
+    Block-Deleted: Đã loại bỏ khỏi menu khối!
+    Loot-Table-Change: Rương ẩn đã thay đổi!
+    First-Page: Bạn đang ở trang dầu tiên rồi
+    Last-Page: Bạn đang ở trang cuối cùng rồi
+    Mine-Doesnt-Exist: '&cKhu khai thác bạn đang cố mở không còn tồn tại nữa!'

@@ -52,5 +52,11 @@
     "name": "ChimzDaPoet",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e81670e4-b978-3e0c-8db0-bf9aec43971a",
+    "name": "Mintlai",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

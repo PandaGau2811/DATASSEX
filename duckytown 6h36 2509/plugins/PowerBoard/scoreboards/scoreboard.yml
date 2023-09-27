@@ -13,109 +13,34 @@
 # Wiki for using conditions: https://github.com/Xitee1/PowerBoard/wiki/Conditions
 
 title:
-  speed: 6
+  speed: -1
   titles:
-  - '&4PowerBoard'
-  - '&cPowerBoard'
-  - '&6PowerBoard'
-  - '&ePowerBoard'
-  - '&ePowerBoard'
-  - '&2PowerBoard'
-  - '&2PowerBoard'
-  - '&aPowerBoard'
-  - '&aPowerBoard'
-  - '&bPowerBoard'
-  - '&bPowerBoard'
-  - '&9PowerBoard'
-  - '&9PowerBoard'
-  - '&dPowerBoard'
-  - '&dPowerBoard'
-  - '&5PowerBoard'
-  - '&5PowerBoard'
-  - '&fPowerBoard'
-  - '&fPowerBoard'
-  - '&7PowerBoard'
-  - '&8PowerBoard'
-  - '&aPowerBoard'
-  - '&f&oPowerBoard'
-  - '&f&kPowerBoard'
-  - '&f&mPowerBoard'
-  - '&f&mPowerBoard'
-  - '&f&o&nPowerBoard'
-  - ' '
+  - '&e%player_name%'
 
 '0':
-  speed: -1
+  speed: 0
   scores:
-  - '-Not animated-'
+    - '&cMáu: %player_health_rounded% ♥'
 
 '1':
-  speed: -1
+  speed: 60
   scores:
-  - ' '
-
-'2':
-  speed: 13
-  scores:
-  - '&a-A-'
-  - '&b-An-'
-  - '&c-Ani-'
-  - '&d-Anim-'
-  - '&e-Anima-'
-  - '&f-Animat-'
-  - '&6-Animate-'
-  - '&3-Animated-'
-  - '&3-Animated- \'
-  - '&3-Animated- |'
-  - '&3-Animated- /'
-  - '&3-Animated- -'
-  - '&3-Animated- \'
-  - '&3-Animated- |'
-  - '&3-Animated-'
-  - '&6-Animate-'
-  - '&f-Animat-'
-  - '&e-Anima-'
-  - '&d-Anim-'
-  - '&c-Ani-'
-  - '&b-An-'
-  - '&a-A-'
+    - '&bGiết/Chết: &e%kdratio_kills%&7/&c%kdratio_deaths% &7| &bTỷ lệ: &a%kdratio_ratio%'
 
 '3':
-  speed: -1
+  speed: 60
   scores:
-  - ' '
-
-'4':
-  speed: 30
-  scores:
-  - '&bPlayers:'
-  - '&bYour rank:'
-  - '&bYour name:'
-  - '&bTime:'
-  - '&bDate:'
-  - '&bWorld:'
-  - '&bYour ping:'
-  - '&bYour hunger level:'
-  - '&bYour saturation:'
-  - '&bYour hearts:'
-  - '&bServer TPS:'
-  - '&bServer RAM:'
+  - '&bThời gian: &a%time%'
 
 '5':
-  speed: 30
+  speed: 0
   scores:
-  - '&a%server_online_players%&7/&a%server_max_players%'
-  - '&a%player_rank%'
-  - '&a%player_name%'
-  - '&a%time%'
-  - '&a%date%'
-  - '&a%player_world%'
-  - '&a%player_ping%'
-  - '&a%player_food%'
-  - '&a%player_saturation%'
-  - '&a%player_health%'
-  - '&a%server_tps%'
-  - '&a%mem_used%/%mem_total%'
+  - '&bPing: &a%player_ping% &7| &bTPS: &a%server_tps_1%'
+
+'6':
+  speed: 0
+  scores:
+    - '&bPos: &aX: %player_loc_x%; Y: %player_loc_y%; Z: %player_loc_z%'
 
 conditions:
 - 'add conditions here'

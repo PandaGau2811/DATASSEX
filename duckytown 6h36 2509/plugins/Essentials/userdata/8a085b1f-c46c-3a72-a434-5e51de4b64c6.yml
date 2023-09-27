@@ -9,22 +9,22 @@ socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
-baltop-exempt: true
+baltop-exempt: false
 timestamps:
   lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1695832611348
-  login: 1695832046785
+  logout: 1695846417093
+  login: 1695840105252
 money: '0'
 last-account-name: TrieuVeGa
 logoutlocation:
   world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
   world-name: world
-  x: 80.43972887035079
-  y: 56.0
-  z: 392.35744412610353
-  yaw: 2.059417724609375
-  pitch: 39.450164794921875
+  x: 60.23387392754124
+  y: 52.0625
+  z: 372.6299437754138
+  yaw: -101.2501449584961
+  pitch: 24.900012969970703

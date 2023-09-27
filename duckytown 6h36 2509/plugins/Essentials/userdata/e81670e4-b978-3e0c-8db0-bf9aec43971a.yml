@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.129.238.166
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1695837383898
+  login: 1695836888668
+money: '0'
+last-account-name: Mintlai
+logoutlocation:
+  world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
+  world-name: world
+  x: 70.3121575186581
+  y: 52.0625
+  z: 375.3854014542659
+  yaw: 51.264404296875
+  pitch: 35.55730438232422
+lastlocation:
+  world: f3cc6b47-80ea-4e3f-bef0-295db53c8ec0
+  world-name: world
+  x: 0.0
+  y: -270.4309947815675
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
