@@ -1,0 +1,33 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: a218015c-a628-40b9-9829-c7542585370e
+      cached-skin-uuid-name: giant
+    name: GIANT
+    uuid: efd0116d-0581-4446-ad5d-935c875a4e0a
+    traits:
+      location:
+        bodyYaw: -28.490967
+        world: flatroom
+        x: '28.1382'
+        y: '-60.0'
+        z: '-35.6123'
+        yaw: '-28.491'
+        pitch: '31.3497'
+      type: PLAYER
+      owner:
+        uuid: 2c8e3283-17cc-3b57-b589-ce2a3eb0a42c
+      skintrait:
+        fetchDefaultSkin: true
+        signature: hPGewTFwWS8y685aQ9JPFeKKm9RJaxIvFFSXaZkA1oYoNq+QAbDfrKrmHCTx0tULyyr4XByYEOlnUqzFDjVyxsJbO+qRp2wVoml2i0TKYRkvslC2s3EgaXBs0szmE9KRjgS4m5Adb5UOrWu96UENWP9a9FFGPIERF/RckLszORD9hiGAe3gQrPwysFYQyOkhonJkq3v/6i6vfHf+xw56Ij28+rt2g2yUvEdRymUr8T8PO0RzBlsXH99iagR4Z5bbhqVDI6l5ZZiPhiBFpFrGRPfxI/Flt739uz9loQkduHNO2IrZb6vAkyqE06fNQ5jEl38tZ+IGtUr/f4FJE/lKiT9cb+s70s8LTAo1HXwW/SBR2DIdrjjmBRX50KhIs7IwbraRkRDTIrn2mxQ5FI0PePWQFRuDYVA5MmA3B+VwDRZXIgZR0b9SCAyh3XhZy7RNdymbGJrVZNIgkVn7GOhNc9M0pzJ5mjEULJ9+DDOsIy84A1OPTz/mBhQl3FlQ3EVpx3rfJIsFvGpZfTKPRPpsG5gNqE/5W8CK2jVShbd1PV+hN9dYYK0Fc9MtYsbVW/h7J6cML6rYozZCT2s6/moGYFAaDPDV8HgVHQ+Pp+/oUXRbaxS37VVodcgENXUQ3vC7JmkXN956FySWUK2rv1L4XZ90fMkAV4ck+gcUWa0OUaY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NTgyMzkwOTgxNiwKICAicHJvZmlsZUlkIiA6ICJhMjE4MDE1Y2E2Mjg0MGI5OTgyOWM3NTQyNTg1MzcwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaWFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMGY3NTgyOGZiM2VlODRkMWU0YzA2Yjc1OGJlMTg1MmQ4MzFmZTQyYWY1OTUxMTc0OTBjYjM2ZjgzM2MwYjA0IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: false
+    traitnames: type,mounttrait,spawned,inventory,location,scoreboardtrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
