@@ -199,7 +199,7 @@ Mine:
     lootTable: []
   resetMode: TIME
   resetDelay: 600
-  countdown: 71
+  countdown: 154
   resetPercentage: 0.0
   replaceMode: false
   teleportPlayers: false

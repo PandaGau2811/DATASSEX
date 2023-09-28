@@ -70,19 +70,19 @@ ranks:
     owner:
       permission: 'rank.owner' # If the perm system above is "none", use a permission here. If it's not "none", use the group name instead (E.g. 'owner' instead of 'rank.owner').
       prefix: ''
-      suffix: ''
+      suffix: ' &e%player_locale_country%'
       chatPrefix: '&b%player_name% » '
       placeholder-name: 'Owner' # This will replace the %player_rank% placeholder
     admin:
       permission: 'rank.admin'
       prefix: ''
-      suffix: ''
+      suffix: ' &e%player_locale_country%'
       chatPrefix: '&b%player_name% » '
       placeholder-name: 'Admin'
     player:
       permission: 'rank.player'
       prefix: ''
-      suffix: ''
+      suffix: ' &e%player_locale_country%'
       chatPrefix: '&b%player_name% » '
       placeholder-name: 'Player'
 

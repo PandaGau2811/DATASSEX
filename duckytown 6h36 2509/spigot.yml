@@ -24,21 +24,21 @@ settings:
   log-named-deaths: true
   attribute:
     maxHealth:
-      max: 2048.0
+      max: 1000.0
     movementSpeed:
-      max: 2048.0
+      max: 1000.0
     attackDamage:
-      max: 2048.0
+      max: 1000.0
   sample-count: 12
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  whitelist: Bạn không có trong danh sách của máy chủ!
+  unknown-command: Không rõ lệnh. Gõ "/help" để tìm hiểu thêm.
+  server-full: Máy chủ đã đầy!
+  outdated-client: Khác phiên bản! Hãy dùng {0}
+  outdated-server: Khác phiên bản! Tôi vẫn đang dùng {0}
+  restart: Máy chủ đang khởi động lại
 advancements:
   disable-saving: false
   disabled:

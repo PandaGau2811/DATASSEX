@@ -235,6 +235,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2023-09-28 13:18:48 +0700",
       "minecraft:nether_wastes": "2023-09-26 22:24:39 +0700"
     },
     "done": false
@@ -1064,6 +1065,18 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2023-09-28 01:49:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-09-28 13:19:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-09-28 13:19:34 +0700"
     },
     "done": true
   },

@@ -42,5 +42,10 @@ title:
   scores:
     - '&bPos: &aX: %player_loc_x%; Y: %player_loc_y%; Z: %player_loc_z%'
 
+'7':
+  speed: -1
+  scores:
+    - ''
+
 conditions:
 - 'add conditions here'
