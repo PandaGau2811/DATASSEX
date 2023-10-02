@@ -1,0 +1,67 @@
+# Here you can customize the tablist.
+# You can add as many animation steps as you like.
+#
+# For every line you can set a different speed.
+# To add a new line, just add a new number like this: '2':
+# But to prevent issues, you can also copy & paste the last row for example and then modify the text.
+#
+# Note: For static lines (no animations or updates needed): Set the 'speed' value to '-1'. This will save performance.
+# Note: Specify the speed in ticks, not seconds: 20 ticks = one second.
+# Note: The speed value can not be higher than 9999.
+
+header:
+  '0':
+    speed: 4
+    lines:
+    - '&1Agribank'
+    - '&aAgribank'
+    - '&bAgribank'
+    - '&6Agribank'
+
+  '1':
+    speed: 10
+    lines:
+    - '&cBUI THANH DAT'
+
+  '2':
+    speed: -1
+    lines:
+    - '&06280205730567'
+
+  '3':
+    speed: 10
+    lines:
+    - '  &aChào Mấy Con Dịt Đến &6Ducky Town  '
+    - '  &bChào Mấy Con Dịt Đến &6Ducky Town  '
+    - '  &cChào Mấy Con Dịt Đến &6Ducky Town  '
+    - '  &dChào Mấy Con Dịt Đến &6Ducky Town  '
+
+  '4':
+    speed: -1
+    lines:
+    - ' '
+
+footer:
+  '0':
+    speed: -1
+    lines:
+      - ''
+  '1':
+    speed: 0
+    lines:
+    - '&aServer RAM: &b%server_ram_used%&7/&a%server_ram_max%'
+
+  '2':
+    speed: -1
+    lines:
+      - '&aPlayers: &b%server_online%&7/&a%server_max_players%'
+
+  '3':
+    speed: 10
+    lines:
+      - '&d%date%'
+
+  '4':
+    speed: -1
+    lines:
+      - '&r✪ &b&ohttps://discord.gg/w44gruHs &r✪'

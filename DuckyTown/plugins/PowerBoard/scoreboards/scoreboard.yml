@@ -1,0 +1,51 @@
+# Here you can customize the scoreboard.
+# You can add as many animation steps as you like.
+#
+# For every score (row) you can set a different speed.
+# You can use up to 14 rows. To add a new row, just add a new number like this: '7':
+# But to prevent issues, you can also copy & paste the last row for example and then modify the text.
+#
+# Note: For static lines (no animations or updates needed): Set the 'speed' value to '-1'. This will save performance.
+# Note: You need to specify the speed in ticks, not seconds: 20 ticks = one second.
+# Note: The speed value can not be higher than 9999.
+#
+# Wiki for using multiple scoreboards: https://github.com/Xitee1/PowerBoard/wiki/Create-and-use-multiple-scoreboards
+# Wiki for using conditions: https://github.com/Xitee1/PowerBoard/wiki/Conditions
+
+title:
+  speed: -1
+  titles:
+  - '&e%player_name%'
+
+'0':
+  speed: 0
+  scores:
+    - '&cMáu: %player_health_rounded% ♥'
+
+'1':
+  speed: 60
+  scores:
+    - '&bGiết/Chết: &e%kdratio_kills%&7/&c%kdratio_deaths% &7| &bTỷ lệ: &a%kdratio_ratio%'
+
+'3':
+  speed: 60
+  scores:
+  - '&bThời gian: &a%time%'
+
+'5':
+  speed: 0
+  scores:
+  - '&bPing: &a%player_ping% &7| &bTPS: &a%server_tps_1%'
+
+'6':
+  speed: 0
+  scores:
+    - '&bPos: &aX: %player_loc_x%; Y: %player_loc_y%; Z: %player_loc_z%'
+
+'7':
+  speed: -1
+  scores:
+    - ''
+
+conditions:
+- 'add conditions here'
